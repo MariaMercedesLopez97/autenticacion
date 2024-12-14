@@ -1,0 +1,2 @@
+iniciar un proyecto en javascript: npm init -y
+install dependencies: npm install express bcryptjs jsonwebtoken helmet csurf cookie-parser express-rate-limit pg dotenv

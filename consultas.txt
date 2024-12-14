@@ -1,0 +1,17 @@
+POST => http://localhost:3000/register
+
+{
+    "email": "mmercedeslopez97@gmial.com",
+    "password": "Password123"
+}
+
+
+
+GET => http://localhost:3000/users
+
+ Pruebas de XSS (Cross-Site Scripting)
+
+ {
+  "email": "<script>alert('XSS')</script>",
+  "password": "password123"
+}
